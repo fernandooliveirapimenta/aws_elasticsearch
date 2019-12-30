@@ -1,0 +1,40 @@
+(elastisearch) Totalmente gerenciado mas não é serverless
+scala pra cima e para baixo sem downtime (isso não é automatico)
+Pague pelo uso:
+instancias ec2, storage, transferencia de dados
+isamento de rede
+Integra com servicos da AWS:
+S3
+Kinesis Data Stream
+Dynamodb Streams
+Cloudwatch/ Trail
+Zone awsreness
+
+
+Options
+Master nodes dedicados
+Snapshots no S3
+Zone Awareness
+
+
+Security
+VPC
+Cognito
+Request signing
+
+Kibana seguranca
+Cognito
+Acesso externo da vpc
+SSH tunnel para porta 5601
+VPC Direct Connect
+VPN
+
+Anti-patterns
+
+OLTP:
+ sem transacoes usar RDS ou Dynamodb para isso
+
+Ad-hoc data querying ou seja buscar tipo SQL:
+ usar Athena para iso
+
+Amazon ES é para buscar e analytics

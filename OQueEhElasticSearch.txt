@@ -1,0 +1,22 @@
+Elasticsearch
+
+ELK
+search engine
+analysis tool
+ferramenta de visualizacao Kibana
+pipelina de dados (Beats/LogStash)
+pode usar kinesis junto
+Escalabilidade horizantall
+
+Full-text search
+Analise de logs
+Monitoramento de aplicacoes
+Monitoramento de seguranca
+analise de clickstream
+
+
+documents - types - indices
+
+documents -> é oque vc esta buscando, json, unico ID e um tipo
+types -> define o esquema compartilhado pelo documento
+indice -> tipo o indice de uma agenda facilita a busca

@@ -1,0 +1,1 @@
+Server Logs -> Kinesis Data Firehose -> AWS Elasticsearch Service
